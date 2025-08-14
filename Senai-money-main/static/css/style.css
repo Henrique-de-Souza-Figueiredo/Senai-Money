@@ -1,14 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
   font-family: 'Inter', sans-serif;
+  
 }
  
 body {
   background-color: #121214;
   color: #fff;
-  padding: 20px;
+  
 }
  
 header {
@@ -110,6 +111,13 @@ tbody tr {
 .saida {
     color: #e83f5b;
 }
+.paginacao {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+ 
+}
 
 .paginacao a.paginas {
   background-color: #323238;
@@ -137,4 +145,5 @@ tbody tr {
   font-weight: 600;
   text-decoration: none;
 }
+
 
