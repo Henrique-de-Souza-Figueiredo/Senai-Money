@@ -110,10 +110,31 @@ tbody tr {
 .saida {
     color: #e83f5b;
 }
-.paginacao {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
- 
+
+.paginacao a.paginas {
+  background-color: #323238;
+  color: rgb(122, 122, 122);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  
 }
+
+.paginacao a.paginas:hover {
+  transition: background-color 0.7s;
+   background-color: #056e34;
+   color: white;
+}
+
+.seta {
+  color: rgb(122, 122, 122);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
