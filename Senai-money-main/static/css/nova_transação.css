@@ -1,0 +1,88 @@
+body {
+    background-color: #121214;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+ 
+section {
+    background-color: #202024;
+    padding: 20px;
+    border-radius: 6px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: white;
+}
+ 
+section h3 {
+    margin: 0 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+.inputs input {
+    width: 95%;
+    padding: 12px;
+    background-color: #121214;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 10px;
+}
+ 
+.inputs input::placeholder {
+    color: #a8a8b3;
+}
+ 
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+ 
+.botoes button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #29292e;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+ 
+.entrada {
+    border: 1px solid #33cc95;
+    color: #33cc95;
+}
+ 
+.saida {
+    border: 1px solid #e52e4d;
+    color: #e52e4d;
+}
+ 
+.cadastrar {
+    background-color: #33cc95;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+ 
+.cadastrar:hover {
+    background-color: #29b885;
+}
+ 
+ 
